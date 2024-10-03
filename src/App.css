@@ -1,0 +1,134 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+.netflix-app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header.css */
+.netflix-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #000;
+}
+
+.logo {
+  height: 40px;
+}
+
+.header-buttons button {
+  padding: 7px 17px;
+  font-size: 14px;
+  border-radius: 3px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.join-now {
+  background-color: #e50914;
+  color: #fff;
+  border: none;
+}
+
+.sign-in {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+/* MainContent.css */
+.netflix-main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 40px;
+}
+
+.netflix-main h1 {
+  font-size: 28px;
+  max-width: 800px;
+  margin-bottom: 30px;
+}
+
+.join-now-main {
+  background-color: #e50914;
+  color: #fff;
+  border: none;
+  padding: 12px 29px;
+  font-size: 18px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.hero-section {
+  margin: 90px;
+}
+.content-row {
+  margin: 20px;
+  position: relative;
+}
+
+.content-row-heading {
+  position: absolute;
+  left: 0;
+  top: -40px; /* Adjust this value to fine-tune the vertical position */
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+/* Footer.css */
+.netflix-footer {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 30px 50px;
+  font-size: 13px;
+  color: #757575;
+}
+
+.netflix-footer p {
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.footer-column a {
+  color: #757575;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+.footer-column a:hover {
+  text-decoration: underline;
+}
+
+.language-selector {
+  margin-top: 20px;
+}
+
+.language-selector select {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border: 1px solid #333;
+}
